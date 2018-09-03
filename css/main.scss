@@ -1,0 +1,18 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@charset 'utf-8';
+@import 'custom'; // variables for bootstrap
+
+// vendor
+@import 'bootstrap-overrides';
+@import 'bootstrap';
+
+// customizations
+@import 'variables';
+@import 'base';
+@import 'helpers';
+
+// pages
+@import 'home';

@@ -1,0 +1,46 @@
+.home-me-title {
+  font-family: $font-family-serif;
+  font-size: $h2-font-size;
+}
+.home-me-description {
+  font-size: $font-size-lg;
+}
+
+@media (min-width: 768px) {
+  .home-main-block:first-child {
+    padding-right: 2.5rem;
+  }
+  .home-main-block:last-child {
+    position: relative;
+    padding-left: 2.5rem;
+
+    // &:before {
+    //   content: "";
+    //   position: absolute;
+    //   left: 0;
+    //   top: -30px;
+    //   bottom: 0;
+    //   width: 1px;
+    //   background: $body-color;
+    // }
+  }
+}
+.instagram-feed-container {
+  // margin-right: -0.5rem;
+}
+.instagram-feed-image {
+  padding: 0;
+  margin-right: 0.5rem;
+
+  img {
+    width: 100%;
+  }
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.media {
+  font-size: $font-size-lg;
+}

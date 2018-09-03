@@ -1,0 +1,13 @@
+{% if include.url_text %}
+  {% assign url_description = include.url_text %}
+{% else %}
+  {% assign url_description = include.url %}
+{% endif %}
+
+<p class='mb-3 text-small'>
+  <span class='font-weight-bold mr-2'>{{ include.name }}</span><span class='text-muted'>{{ include.role }}</span>
+  <br />
+  {{ include.description }}
+  <br />
+  <a href='{{ include.url }}' class='mr-2' target='_blank'>{{ url_description }}</a><span class='text-muted'>{{ include.location }}</span>
+</p>

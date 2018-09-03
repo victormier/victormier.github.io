@@ -1,0 +1,42 @@
+html, body {
+  font-family: $font-family-sans-serif;
+}
+
+// Layout
+
+.container-half {
+  max-width: 570px;
+  width: 100%;
+  padding: 0 $base-separator;
+}
+
+// Helpers
+
+.small-title {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.crossed-out {
+  text-decoration: line-through;
+}
+
+.text-small {
+  font-size: $font-size-sm;
+}
+
+.light-bg {
+  background: #fdfdfd;
+}
+
+.padding-top-base {
+  padding-top: $base-separator;
+}
+
+.padding-top-base-2 {
+  padding-top: $base-separator * 2;
+}
+
+.margin-bottom-base {
+  margin-bottom: $base-separator;
+}
