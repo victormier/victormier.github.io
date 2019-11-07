@@ -31,3 +31,8 @@ sass:
         - _sass
         - node_modules
 exclude: []
+defaults:
+  - scope:
+      path: "assets/img"
+    values:
+      image: true

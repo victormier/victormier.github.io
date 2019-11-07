@@ -5,6 +5,11 @@
 .home-me-description {
   font-size: $font-size-lg;
 }
+.home-main-block-image {
+  img {
+    width: 100%;
+  }
+}
 
 @media (min-width: 768px) {
   .home-main-block:first-child {
@@ -23,6 +28,11 @@
     //   width: 1px;
     //   background: $body-color;
     // }
+  }
+  .home-main-block-image {
+    img {
+      max-width: 250px;
+    }
   }
 }
 .instagram-feed-container {
